@@ -1,0 +1,113 @@
+.login-main{
+    height:100vh;
+    width:100%;
+    background-color: rgb(181, 181, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.login-sub{
+    width:350px;
+    height:400px;
+    background-color: white;
+    box-shadow: 0 0.1875rem 0.75rem 0 grey;
+    border-radius: 15px;
+}
+.login-sub h5{
+margin-top:25px;
+margin-left:75px;
+font-size: 25px;
+color:#072a7c;
+}
+.inp{
+    height:40px;
+    width:250px;
+    border:1px solid rgb(100, 100, 100);
+    margin:30px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 244, 244);
+}
+.inp input{
+    outline: none;
+    border:none;
+     height:40px;
+    width:250px;
+ border-radius: 10px;
+ margin-left: 10px ;
+  background-color: rgb(246, 244, 244);
+}
+.inp input::placeholder{
+    padding-left:10px;
+    font-size: 15px;
+}
+.inp  i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.login-middle{
+    display: flex;
+    width:250px;
+    margin:auto;
+    justify-content: space-between;
+}
+.p1{
+    color:#072a7c;
+}
+.button1{
+    height:40px;
+    width:250px;
+    border:1px solid rgb(100, 100, 100);
+    /* margin:30px 80px; */
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 10px;
+ background-color: #0F172A;
+ color: white;
+ font-size: 17px;
+}
+.button2{
+    height:40px;
+    width:250px;
+    border:1px solid rgb(100, 100, 100);
+    /* margin:30px 80px; */
+    margin-top: 10px;
+    margin-left: 50px;
+    /* border:1px solid b; */
+    border-radius: 10px;
+ /* background-color: #0F172A; */
+ color: white;
+ font-size: 17px;
+ color: #0F172A;
+
+}
+.bottom{
+    width:250px;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+.bottom .bot-sub{
+    width:250px;
+    margin: auto;
+    border: 1px solid rgb(153, 153, 153);
+}
+.bottom1{
+    width:250px;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    font-size: 17px;
+}
+span{
+    color:#072a7c
+}
+p i{
+    margin-right: 5px;
+}
